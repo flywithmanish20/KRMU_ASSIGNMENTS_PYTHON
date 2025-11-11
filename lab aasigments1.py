@@ -80,8 +80,8 @@ if save_choice == "yes":
     
     with open("calorie_log.txt", "w") as file:
         file.write("===== DAILY CALORIE TRACKER REPORT =====\n")
-        file.write(f"NAME: FARHAN HUSSAIN\n")
-        file.write(f"ROLL NUMBER: 2501730002\n")
+        file.write(f"NAME: Manish kumar\n")
+        file.write(f"ROLL NUMBER: 2501730264\n")
         file.write(f"DATE: {dt.datetime.now()}\n\n")
 
         file.write(f"{'S NO':<4}{'MEAL NAME':<20}{'CALORIES':<25}\n")
